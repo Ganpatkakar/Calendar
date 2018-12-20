@@ -1,4 +1,4 @@
-  window.onload = function(){
+(function(){
     var date = new Date();
     month_name = ['Jan', 'Feb', 'Mar', 'Aprl', 'May', 'June', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     day_name = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -134,4 +134,4 @@
       return table;
       }
 
-    }
+    })();
